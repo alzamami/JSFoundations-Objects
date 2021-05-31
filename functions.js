@@ -42,7 +42,6 @@ function numberOfVideos(channel) {
  ****************************************************************/
 function channelHasVideo(videoTitle, channel) {
   return channel.videos.some((video) => video.title === videoTitle);
-  // return videoTitle !== channel.videos.title;
   // Your code here
 }
 // console.log(channelHasVideo("The Universal S", channels[0]));
